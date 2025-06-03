@@ -1,0 +1,16 @@
+# Ignore node_modules and dist directories
+# Node.js dependencies
+# Dependency directories
+node_modules/
+
+# build output
+dist/
+
+# TypeScript build
+*.tsbuildinfo
+
+# Local development environment files
+local.env
+deploy.bat
+
+# Others

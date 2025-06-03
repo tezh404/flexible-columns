@@ -1,0 +1,12 @@
+{
+  "name": "flexible-columns",
+  "version": "0.1.0",
+  "description": "Obsidian plugin for resizable column layouts",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "esbuild src/main.ts --bundle --outfile=/dist/main.js --format=cjs --platform=node --external:obsidian"  },
+  "devDependencies": {
+    "esbuild": "^0.25.5",
+    "obsidian": "^1.5.0"
+  }
+}
