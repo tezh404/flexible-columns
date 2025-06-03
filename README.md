@@ -53,7 +53,8 @@ ___
 Second column content
 ___
 Third column content
-
+```
+````
 You can also insert columns using the context menu:
 
 1. Right-click in your markdown editor.
